@@ -27,17 +27,19 @@ h2 {
 <head>
 <title>INFT 1406 - Lab 1 Part 1</title>
 <body>
-<address>Dr. Eleanor Gaye</address>
+<div class="sender-column">
+<address><strong>Dr. Eleanor Gaye</strong></address>
 Awesome Science faculty<br>
 University of Awesome<br>
 Bobtown, CA 99999,<br>
 USA<br>
-Tel: 123-456-7890<br>
-Email: no_reply@example.com<br>
-<br>
-20 January 2016<br>
-<br>
-<address>Miss Eileen Dover</address>
+<strong>Tel:</strong> 123-456-7890<br>
+<strong>Email:</strong> no_reply@example.com<br>
+</div>
+<p class="sender-column">
+<time datetime="2016-01-20">20 January 2016</time><br>
+</p>
+<address><strong>Miss Eileen Dover</strong></address>
 4321 Cliff Top Edge<br>
 Dover, CT9 XXX<br>
 UK<br>
@@ -49,7 +51,7 @@ UK<br>
 <p>
 Thank you for your recent application to join us at the University of
 Awesome's science faculty to study as part of your
-PhD (Doctor of Philosophy) next year. I will answer your
+<dfn id="phd">PhD</dfn><abbr> (Doctor of Philosophy)</abbr>  next year. I will answer your
 questions one by one, in the following sections.
 </p>
 
@@ -62,9 +64,9 @@ semester; the start dates for each one are as follows:
 </p>
 
 <ul>
-<li>First semester: 9 September 2016</li>
-<li>Second semester: 15 January 2017</li>
-<li>Third semester: 2 May 2017</li>
+<li>First semester: <time datetime="2016-09-09"> 9 September 2016</time></li>
+<li>Second semester: <time datetime="2017-01-15">15 January 2017</time></li>
+<li>Third semester: <time datetime="2017-05-02">2 May 2017</time></li>
 </ul>
 
 <p>
@@ -84,13 +86,9 @@ priority:
 </p>
 
 <ol>
-<li>Turning H2O into wine, and the health benefits of Resveratrol</li>
-(C14H12O3.)
-<li>Measuring the effect on performance of funk bass players at temperatures</li>
-<li>exceeding 30°C (86°F), when the audience size exponentially increases</li>
-<li>(effect of 3 × 103 increasing to 3 × 104.)</li>
-<li>HTML, Hypertext Markup Language, and CSS,</li>
-<li>Cascading Style Sheets, constructs for representing musical scores.</li>
+<li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>.)</li>
+<li>Measuring the effect on performance of funk bass players at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>.)</li>
+<li><dfn id="html"><abbr title="Hypertext Markup Language">HTML</abbr></dfn>, and <dfn id="css"><abbr title="Cascading Style Sheets">CSS</abbr></dfn>, constructs for representing musical scores.</li>
 </ol>
 
 <p>
@@ -108,18 +106,18 @@ favorite dances are as follows, with definitions:
 </p>
 
 <dl>
-<dt>Polynesian chicken dance</dt>
+<dt><strong>Polynesian chicken dance</strong></dt>
     <dd>A little known but very influential dance dating back as far as
-    300 BCE, a whole village would
+    300 <dfn id="bce"><abbr title="Before Common Era">BCE</abbr></dfn>, a whole village would
     dance around in a circle like chickens, to encourage their livestock to
     be "fruitful".</dd>
-<dt>Icelandic brownian shuffle</dt>
+<dt><strong>Icelandic brownian shuffle</strong></dt>
     <dd>Before the Icelanders developed fire as a means of getting warm, they
     used to practice this dance, which involved huddling close together in a
     circle on the floor, and shuffling their bodies around in imperceptibly
     tiny, very rapid movements. One of my fellow students used to say that
     he thought this dance inspired modern styles such as Twerking.</dd>
-<dt>Arctic robot dance</dt>
+<dt><strong>Arctic robot dance</strong></dt>
     <dd>An interesting example of historic misinformation, English explorers in
     the 1960s believed to have discovered a new dance style characterized by
     "robotic", stilted movements, being practiced by inhabitants of Northern
@@ -130,13 +128,15 @@ favorite dances are as follows, with definitions:
 <p>
 Yours sincerely,
 </p>
+
 <p>
 Dr Eleanor Gaye
 </p>
+
 <p>
-University of Awesome motto: Be awesome to each other. --
-The memoirs of Bill S Preston, Esq.
+<strong>University of Awesome motto:</strong> "Be awesome to each other."</blockquote> -- The memoirs of <cite>Bill S Preston</cite>, <dfn id="esq"><abbr title="Esquire">Esq</abbr></dfn>.
 </p>
+
 </body>
 </head>
 </html>
