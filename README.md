@@ -4,3 +4,4 @@
 - [HTML Element: Abbreviations](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/abbr)
 - [HTML Element: Subscript](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/sub)
 - [HTML Element: Blockquotes](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/blockquote)
+- [HTML Element: Title](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title)
