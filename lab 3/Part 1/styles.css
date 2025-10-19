@@ -6,4 +6,18 @@ body {
   font: 1.2em / 1.5 system-ui;
   padding: 20px;
   width: 500px;
+  background-color: #efefef;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+    background-color: white;
+    border-radius: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: purple;
+    padding: 30px;
 }
