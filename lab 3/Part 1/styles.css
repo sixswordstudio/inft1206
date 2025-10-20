@@ -21,3 +21,31 @@ ul {
     border-color: purple;
     padding: 30px;
 }
+
+h1 {
+    font-size: 2rem;
+    background-color: darkslategray;
+    border: 10px;
+    border-style: dotted;
+    border-color: purple;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+div.job-title {
+    background-color: darkslategray;
+    color: white;
+    font-style: bold;
+}
+
+:link {
+    color: green;
+}
+
+:link:hover {
+    color: darkgreen;
+    text-decoration: none;
+}
