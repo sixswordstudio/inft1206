@@ -10,6 +10,12 @@ body {
   min-width: 980px;
   max-width: 1400px;
   font-family: 'Merriweather', serif;
+  font-size: medium;
+  line-height: 125%;
+}
+
+section :is(h1, h2, h3, h4, h5, h6) + p {
+  text-indent: 2rem;
 }
 
 /* Layout */
@@ -27,12 +33,23 @@ header {
   border-bottom: 5px solid #aa6666;
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
+  font-size: large;
+  text-align: center;
+  letter-spacing: 0.15rem;
+}
+
+h2 {
+    margin-bottom: 0%;
+    letter-spacing: 0.25rem
 }
 
 footer {
   border-top: 5px solid #aa6666;
+  font-size: small;
 }
 
 footer p {
   text-align: center;
 }
+
+/* Links */
