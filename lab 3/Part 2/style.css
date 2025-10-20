@@ -85,3 +85,10 @@ a[href^="http"]::after {
   background-size: contain;                   /* respect the width/height constraint */
   vertical-align: text-top;
 }
+
+/* Lists */
+
+ul {
+    line-height: 125%;
+    list-style: disc;
+}
