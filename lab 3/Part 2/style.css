@@ -11,7 +11,7 @@ body {
   max-width: 1400px;
   font-family: 'Merriweather', serif;
   font-size: medium;
-  line-height: 125%;
+  line-height: 1.2rem;   /* percent is a relative unit */ 
 }
 
 section :is(h1, h2, h3, h4, h5, h6) + p {
@@ -33,14 +33,21 @@ header {
   border-bottom: 5px solid #aa6666;
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  font-size: large;
+  font-size: large;  /* uses relative sizes */
   text-align: center;
   letter-spacing: 0.15rem;
 }
 
+
+h1 {
+    letter-spacing: 0.25rem;
+    font-family: 'Roboto Slab', serif;
+}
+
 h2 {
     margin-bottom: 0%;
-    letter-spacing: 0.25rem
+    letter-spacing: 0.25rem;
+    font-family: 'Roboto Slab', serif;
 }
 
 footer {
@@ -89,7 +96,7 @@ a[href^="http"]::after {
 /* Lists */
 
 ul {
-    line-height: 125%;
+    line-height: 1.2rem;
     list-style: disc;
 }
 
