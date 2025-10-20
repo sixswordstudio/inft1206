@@ -115,13 +115,13 @@ nav a {
   font-family: 'Roboto Slab', serif;
   font-weight: 600;
   color: white;
-  background-color: maroon;
+  background-color: black;
   border-radius: 8px;
   transition: background-color 0.3s;
 }
 
 nav a:hover {
-  background-color: darkred;
+  background-color: maroon;
 }
 
 nav a:visited {
