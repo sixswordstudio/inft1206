@@ -25,16 +25,25 @@ img {
 .grid {
   margin: 0 auto;
   max-width: 980px;
+  display: flex;           /* make article and aside sit in columns */
+  gap: 20px;               /* 20px gap between the two columns */
+  align-items: flex-start; /* align tops of columns */
 }
 
 nav {
   background-color: black;
   padding: 0.5em;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav ul {
+  display: flex;                 /* puts the list items in a row */
+  justify-content: space-around; /* even space between items and small space at ends */
+  align-items: center;           /* vertically centers text within the nav bar */
   margin: 0;
-  padding: 0;
+  padding: 0.5em;                /* gives a little breathing room top/bottom */
   list-style: none;
 }
 
@@ -48,8 +57,27 @@ nav a {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal columns */
+  gap: 5px; /* 5px gap between images */
 }
 
 .feature {
   width: 200px;
+  float: left;
+  margin: 0 20px 20px 0; /* space to the right and bottom */
 }
+
+.grid {
+  display: flex;   /* puts article and aside side by side */
+  gap: 20px;       /* 20px space between them */
+}
+
+article {
+  flex: 3;         /* three times wider than aside */
+}
+
+aside {
+  flex: 1;         /* one part width */
+}
+
